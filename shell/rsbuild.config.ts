@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [
     pluginReact(),
     pluginModuleFederation({
-      name: 'federation_consumer',
+      name: 'shell',
       remotes: {
         federation_provider:
           'federation_provider@http://localhost:3000/mf-manifest.json',
